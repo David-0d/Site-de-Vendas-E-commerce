@@ -1,0 +1,14 @@
+body { background: #050507; color: #f3f4f6; font-family: 'Inter', sans-serif; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 4rem; border-bottom: 1px solid rgba(255,255,255,0.05); background: rgba(5,5,7,0.8); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 100; }
+.logo { font-weight: 800; letter-spacing: 2px; font-size: 1.2rem; }
+.cart-badge { background: rgba(255,255,255,0.08); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.1); }
+
+.store-container { padding: 4rem; display: flex; gap: 2rem; justify-content: center; }
+.glass-product-card { background: rgba(18, 18, 26, 0.6); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 20px; padding: 2rem; width: 320px; text-align: center; box-shadow: 0 30px 60px rgba(0,0,0,0.6); }
+.product-image-placeholder { font-size: 3rem; background: rgba(255,255,255,0.03); height: 160px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid rgba(255,255,255,0.05); }
+.glass-product-card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+.product-desc { color: #9ca3af; font-size: 0.85rem; margin-bottom: 1rem; }
+.price { font-size: 1.3rem; font-weight: 700; color: #f3f4f6; display: block; margin-bottom: 1.5rem; }
+
+.btn-glow { width: 100%; background: linear-gradient(135deg, #4f46e5, #3b82f6); color: white; border: none; padding: 0.8rem; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 0 20px rgba(79, 70, 229, 0.4); }
+.btn-glow:hover { opacity: 0.9; transform: scale(1.02); }
